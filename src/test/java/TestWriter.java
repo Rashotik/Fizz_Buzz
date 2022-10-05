@@ -41,7 +41,7 @@ public class TestWriter
     public void testWriteWelcome()
     {
         writer.writeWelcome();
-        assertEquals("Welcome to FizzBuzz application!\nSubmit a number and get an answer!\nInsert a number: ", output.toString());
+        assertEquals("Welcome to FizzBuzz application!\nSubmit a number and get an answer or enter \"/help\" for more information!\nInsert a number: ", output.toString());
     }
 
     @Test
